@@ -133,6 +133,8 @@ You’re now a mrgn mama! For more details on the marginfi SDK and use cases, re
 
 The Bank class represents a bank account on the Marginfi protocol. It encapsulates all the properties and methods related to a specific bank, such as token details, vault addresses, share values, configuration settings, and computations for asset/liability quantities, interest rates, and remaining capacities. It serves as a central point for interacting with and managing a bank within the Marginfi ecosystem.
 
+**Properties**
+
 <Properties>
   <Property name="address" type="PublicKey">
     The public key or address of the bank.
@@ -243,6 +245,8 @@ The Bank class represents a bank account on the Marginfi protocol. It encapsulat
   </Property>
 </Properties>
 
+**Methods**
+
 | Method Name                                    | Parameters                                                                                 | Result Type(s)                                          | Description                                                                               |
 |------------------------------------------------|--------------------------------------------------------------------------------------------|--------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | `decodeBankRaw`                                | `encoded: Buffer`                                                                          | `BankRaw`                                              | A static method that decodes a raw bank account data buffer.                              |
@@ -296,6 +300,8 @@ Represents a group within the marginfi protocol, managed by an admin, and provid
 
 Represents the balance of a user's assets and liabilities within a specific bank in the Marginfi protocol. It includes properties for the bank's public key, asset shares, liability shares, outstanding emissions, and the last update timestamp. 
 
+**Properties**
+
 <Properties>
   <Property name="active" type="boolean">
     Indicates whether the balance is active or not.
@@ -321,6 +327,8 @@ Represents the balance of a user's assets and liabilities within a specific bank
     The timestamp of the last update to the balance.
   </Property>
 </Properties>
+
+**Methods**
 
 | Method Name                         | Parameters                                                                                                                  | Result Type(s)                                            | Description                                                                                              |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
