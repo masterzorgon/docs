@@ -51,7 +51,7 @@ const resources: Array<Resource> = [
     href: 'https://docs.google.com/forms/d/e/1FAIpQLSdxVpEHhD2RA_axuXzXlSBTRj4g62nu1MW9e972M3UcR0jc2Q/viewform?usp=sf_link',
     name: 'Grants',
     description:
-      'Need a grant to fund your integration with the marginfi liquidity layer? Fill out this form.',
+      "Need a grant for your integration with marginfi's liquidity layer? Start here.",
     icon: GrantsIcon,
     pattern: {
       y: 16,
@@ -65,7 +65,7 @@ const resources: Array<Resource> = [
     href: 'https://github.com/mrgnlabs/mrgn-ts/tree/main/apps/alpha-liquidator',
     name: 'Liquidations',
     description:
-      "Interested in becoming a liquidator on marginfi? Get started here.",
+      "Interested in becoming a liquidator on marginfi? Start here.",
     icon: LiquidationIcon,
     pattern: {
       y: -6,
