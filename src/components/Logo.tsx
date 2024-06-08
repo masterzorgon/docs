@@ -6,7 +6,7 @@ export function Logo(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
     <Image 
       src={MarginfiLogo}
-      width={35}
+      width={32}
       alt="Marginfi Logo"
     />
   )
