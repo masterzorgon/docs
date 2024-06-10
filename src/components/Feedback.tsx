@@ -59,8 +59,8 @@ const FeedbackThanks = forwardRef<React.ElementRef<'div'>>(
         ref={ref}
         className="absolute inset-0 flex justify-center md:justify-start"
       >
-        <div className="flex items-center gap-3 rounded-full bg-emerald-50/50 py-1 pl-1.5 pr-3 text-sm text-emerald-900 ring-1 ring-inset ring-emerald-500/20 dark:bg-mrgn-yellow/5 dark:text-mrgn-yellow/80 dark:ring-mrgn-yellow/30">
-          <CheckIcon className="h-5 w-5 flex-none fill-emerald-500 stroke-white dark:fill-mrgn-yellow/20 dark:stroke-mrgn-yellow/70" />
+        <div className="flex items-center gap-3 rounded-full bg-emerald-50/50 py-1 pl-1.5 pr-3 text-sm text-emerald-900 ring-1 ring-inset ring-emerald-500/20 dark:bg-mrgn-chartreuse/5 dark:text-mrgn-chartreuse/80 dark:ring-mrgn-chartreuse/30">
+          <CheckIcon className="h-5 w-5 flex-none fill-emerald-500 stroke-white dark:fill-mrgn-chartreuse/20 dark:stroke-mrgn-chartreuse/70" />
           Thanks for your feedback!
         </div>
       </div>

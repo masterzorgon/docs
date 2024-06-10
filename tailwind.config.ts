@@ -26,8 +26,51 @@ export default {
     },
     typography: typographyStyles,
     extend: {
+      fontFamily: {
+        sans: ["Aeonik Pro", "Helvetica Neue", "sans-serif"],
+      },
       colors: {
-        "mrgn-yellow": '#DFFF00',
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
+        },
+        mrgn: {
+          chartreuse: "hsl(var(--mrgn-chartreuse))",
+          gold: "hsl(var(--mrgn-gold))",
+          slate: "hsl(var(--mrgn-slate))",
+          success: "#75ba80",
+          warning: "#daa204",
+          error: "#e07d6f",
+        },
       },
       boxShadow: {
         glow: '0 0 4px rgb(0 0 0 / 0.1)',
